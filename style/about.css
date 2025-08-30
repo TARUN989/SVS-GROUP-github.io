@@ -1,0 +1,153 @@
+.about-sattelite
+{
+    padding-left: 70px;
+     padding-top: 20px;
+    /* background-color: black; */
+       color: rgb(116, 113, 113);
+       /* position: absolute; */
+letter-spacing: 6PX;
+font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.about-sattelite a{
+    text-decoration: none;
+      color: rgb(116, 113, 113);
+}
+.about-sattelite a:hover{
+    color: orange;
+}
+.about-satell
+{
+    width: 90%;
+    height: auto;
+      color: rgb(116, 113, 113);
+    text-align: justify;
+        line-height: 25px;
+      
+    padding-left: 70px;
+    font-size: 11px;
+}
+     #owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.comments-sattelite
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.comment{
+    padding-left: 70px;
+      color: rgb(116, 113, 113);
+}
+.likes
+{
+    padding-right: 70px;
+      color: rgb(116, 113, 113);
+}
+.likes .fa-solid{
+      color: rgb(116, 113, 113); 
+}
+.likes .fa-solid:hover{
+    color: red;
+}
+
+
+.card:hover
+{
+
+}
+@media (max-width: 480px) {
+    .about-sattelite,
+    .about-satell,
+    .comment,
+    .likes {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-satell {
+        font-size: 0.4rem;
+    }
+
+    .comments-sattelite {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .likes {
+        text-align: left;
+        margin-top: 10px;
+    }
+    .about-sattelite
+{
+   
+    /* background-color: black; */
+       color: rgb(116, 113, 113);
+       /* position: absolute; */
+letter-spacing: 3PX;
+font-size: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .about-sattelite,
+    .about-satell,
+    .comment,
+    .likes {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .about-satell {
+        font-size: 0.7rem;
+    }
+         .about-sattelite
+{
+   
+    /* background-color: black; */
+       color: rgb(116, 113, 113);
+       /* position: absolute; */
+letter-spacing: 3PX;
+font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+}
+
+
+@media (min-width: 769px) {
+    .about-sattelite,
+    .about-satell,
+    .comment {
+        padding-left: 70px;
+    }
+
+    .likes {
+        padding-right: 70px;
+    }
+
+    .about-satell {
+        font-size: 0.8rem;
+    }
+     .about-sattelite
+{
+   
+    /* background-color: black; */
+       color: rgb(116, 113, 113);
+       /* position: absolute; */
+letter-spacing: 3PX;
+/* font-size: 10px; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+} 
